@@ -1,0 +1,46 @@
+$color : blue;
+
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  padding: 100px 20px;
+  color: $color;
+}
+.Header{
+  .sendInput{
+    width: 230px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid darkgray;
+    outline: none;
+    padding: 0px 10px;
+  
+  } 
+  .addItem{
+    width: 80px;
+    height: 35px;
+    margin-left: 20px;
+    background-color: cyan;    
+    border: 0;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+}
+.test{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin-top: 10px;
+}
+.delete{
+  font-size: 18px;
+  border: 0;
+  width: 35px;
+  height: auto;
+  background-color: white;
+  cursor: pointer;
+}
